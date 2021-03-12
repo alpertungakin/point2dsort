@@ -65,7 +65,6 @@ def subDivider(t):
     keylist = list(t.keys())
     for i in range(len(t)):
         temp_input = np.copy(t["{}".format(keylist[i])])
-        #### iteratif bölümleme için bunu düzenle
         Quad = initQuads[i]
         ####
         subQuad = defineQuadrants(Quad)
